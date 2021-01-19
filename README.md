@@ -1,21 +1,29 @@
-Cracion de producto
+# Laravel API REST Carrito de Compras
 
+## Cracion de producto
+```
 {
     "opcion": "create",
     "name": "Producto 1",
     "description": "Descripcion del Producto 1",
     "price": 12.30
 }
-Mostrar todos los productos
+```
+## Mostrar todos los productos
+```
 {
     "opcion": "all"
 }
-Mostrar un producto los productos
+```
+## Mostrar un producto los productos
+```
 {
     "opcion": "show",
     "id":1
 }
-Editar producto
+```
+## Editar producto
+```
 {
     "opcion": "edit",
     "id":1,
@@ -23,13 +31,16 @@ Editar producto
     "description": "Descripcion del Producto 1",
     "price": 12.40
 }
-Borrar Producto
+```
+## Borrar Producto
+```
 {
     "opcion": "delete",
     "id":1
 }
-
-Agregar Producto al Carrito
+```
+## Agregar Producto al Carrito
+```
 {
     "opcion": "addItem",
     "id": 1,
@@ -37,17 +48,24 @@ Agregar Producto al Carrito
     "description": "Descripcion del Producto 1",
     "price": 12.30
 }
-Obtener Carrito
+```
+## Obtener Carrito
+```
 {
     "opcion": "getCar"
 }
-Boorrar item Car
+```
+## Boorrar item Car
+```
 {
     "opcion": "deleteItem",
     "id": 1
 }
-Concluir la venta
+```
+## Concluir la venta
+```
 {
     "opcion": "concluirCar",
     "id": 1
 }
+```
